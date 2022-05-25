@@ -73,6 +73,11 @@ h2 {
   justify-content: flex-start;
 }
 
+#trailer-container {
+  display: flex;
+  justify-content: center;
+}
+
 .details {
   display: inline-block;
   width: fit-content;
@@ -120,6 +125,10 @@ h2 {
   background-color: var(--color-secondary);
 }
 
+
+.elenco li {
+  padding: 10px 0;
+}
 
 /* mockup code */
 
@@ -227,5 +236,14 @@ a.button:hover span:last-child {
 
   .nav-inner a, .nav-inner a:active, .nav-inner a:visited {
     padding: 0.8rem 0.8rem;
+  }
+
+  .cover {
+    display: flex;
+    margin: auto;
+  }
+  
+  .about-container {
+   flex-direction: column;
   }
 }
