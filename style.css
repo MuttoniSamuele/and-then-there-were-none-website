@@ -98,6 +98,7 @@ h2 {
 /* navbar */
 
 .nav-inner {
+  display: flex;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -109,6 +110,11 @@ h2 {
 
 .nav-inner li:first-child {
   font-weight: bold;
+}
+
+.nav-inner li:last-child {
+  font-weight: bold;
+  margin-left: auto;
 }
 
 
